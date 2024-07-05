@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -6,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #730303;
     padding: 1em 0;
     text-align: center;
 }
@@ -117,7 +118,8 @@ margin-left: 15px;
 }
 img{
     
-width: 120px;
+width: 220px;
+border: 2px solid green;
 }
 
 .grid-container {
@@ -220,4 +222,64 @@ footer {
     background-color: #222;
     font-family: 'Roboto', sans-serif;
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 1em;
+}
+
+.footer-section h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 1em;
+}
+
+.footer-section p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5em;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p i {
+    margin-right: 0.5em;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #222;
+    font-family: 'Roboto', sans-serif;
+}
+
 
