@@ -1,1 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 1em;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+footer{
+    margin-top: 150px;
+
+background-color: #f0f0f0;
+
+padding: 30px 0px;
+}
+.footer_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+
+}
+.terms ul{
+
+list-style: none;
+
+display: flex;
+}
+.terms ul li {
+
+margin-right: 15px;
+}
+.terms ul li a{
+
+text-decoration: none;
+
+text-transform: capitalize;
+
+font-size: 14px;
+
+color: #626262;
+}
+
+.social_icon{
+
+}
+.social_icon ul{
+
+list-style: none;
+
+display: flex;
+
+/* justify-content: space-between; */
+
+/* margin-right: 15px; */
+}
+.social_icon ul li{
+    text-transform: capitalize;
+
+margin-left: 15px;
+}
+.social_icon ul li a{
+    color: #626262;
+    text-decoration: none;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.grid-container {
+    padding: 2em;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 1em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
 
